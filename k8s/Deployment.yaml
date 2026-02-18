@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: order
-          image: 
+          image: vvspreddy/order-service
           ports:
             - conatinerPort: 3000
           readinessProbe:
